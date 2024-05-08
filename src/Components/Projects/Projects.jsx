@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import projectone from "../../assets/images/proj1.jpg";
 import projecttwo from "../../assets/images/proj2.png"
 import projectthree from "../../assets/images/proj3.jpg"
+import projectfour from "../../assets/images/proj4.jpg"
 
 export default function Projects() {
   return (
@@ -24,6 +25,12 @@ export default function Projects() {
           link="https://github.com/EdenAsamere/e-commerce"
         />
         <ProjectCard
+          title="Save Lives Website"
+          des="A project that aims at solving the problem of people in need of financial help for their medical bills. Developed interactive and attractive user interface using the above frameworks."
+          src={projectfour}
+          link="https://github.com/EdenAsamere/Save-Live"
+        />
+        <ProjectCard
           title="A Job Boarding platform Backend API"
           des="A platform where employers can post jobs and employees can search for jobs"
           src={projecttwo}
@@ -35,11 +42,7 @@ export default function Projects() {
           src={projectthree}
           link="https://github.com/EdenAsamere/Blog-app"
         />
-        {/* <ProjectCard
-          title="E-Commerce Website"
-          des="lorem sorem ipsum lorem sorem ipsum lorem sorem ipsum"
-          src={projectone}
-        /> */}
+        
       </div>
     </section>
   );
