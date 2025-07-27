@@ -6,16 +6,14 @@ import Features from './Components/Features/Features'
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <Navbar/>
-     <Banner/>
-     <Features/>
-     <Projects/>
-     <Contact/>
-    </>
+    <div className="transition-colors duration-300">
+      <Navbar/>
+      <Banner/>
+      <Features/>
+      <Projects/>
+      <Contact/>
+    </div>
   )
 }
 
